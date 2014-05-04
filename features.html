@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>sharecloud - features</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    sharecloud
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="features.html">Features</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
+                   <li><a href="https://github.com/sharecloud/sharecloud/releases">Downloads</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="push"> </div>
+    
+    <div class="container">
+        <h1>Features</h1>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h2>General</h2>
+                <ul>
+                    <li>only requires a webserver, PHP and MySQL <sup><a href="#fn1" id="ref1">1</a></sup></li>
+                    <li>open-source (MIT License)</li>
+                    <li>have total control of the files you share</li>
+                    <li>create as many folders and files as you want <sup><a href="#fn2" id="ref2">2</a></sup></li>
+                    <li>easily share files with other people</li>
+                    <li>download files from other sources into sharecloud</li>
+                    <li>multi-user capable with each user having his own quota</li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>UI/UX</h2>
+                <ul>
+                    <li>intuitive and responsive interface</li>
+                    <li>utilises modern browser capabilities
+                        <ul>
+                            <li>Drag &amp; drop</li>
+                            <li>AJAX upload</li>
+                        </ul>
+                    </li>
+                    <li>localisations available
+                        <ul>
+                            <li>German</li>
+                            <li>English</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>File management</h2>
+                <ul>
+                	<li>unlimited file size <sup><a href="#fn3" id="ref3">3</a></sup></li>
+                    <li>preview files <sup><a href="#fn4" id="ref3">4</a></sup></li>
+                    <li>file details
+                    	<ul>
+                        	<li>checksums</li>
+                            <li>number of downloads</li>
+                            <li>specific information related to the type of file</li>
+                        </ul>
+                    </li>
+                    <li>multiple share permissions available
+                    	<ul>
+                        	<li>share with everyone</li>
+                            <li>share with everyone having a certain password</li>
+                            <li>private access only</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footnotes">
+            <sup id="fn1">1. Check the requirements page for further requirements</sup><br />
+            <sup id="fn2">2. The amount of files is limited by the server's storage</sup><br />
+            <sup id="fn3">3. Maximum file size may be limited by your PHP setup</sup><br />
+            <sup id="fn4">4. Only with supported file formats - functionality may vary depending on your PHP setup</sup>
+        </div>
+        
+        <hr>
+        
+        <footer>
+            <p>© 2014 sharecloud | This site is powered by Bootstrap and hosted using GitHub pages</p>
+        </footer>
+    </div>
+</body>
+</html>

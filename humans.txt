@@ -3,13 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Marcel Marnitz -- Main developer -- frostieDE
+    Felix Wehnert -- Main developer -- flashspys
 
 # THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Bootstrap, Google Fonts

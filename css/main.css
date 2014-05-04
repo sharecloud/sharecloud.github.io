@@ -1,22 +1,36 @@
 
+body {
+    font-family: 'Open Sans', sans-serif;    
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.push {
+    margin-top:50px;    
+}
 
+.navbar-brand,
+h1, h2 {
+    font-weight:600;    
+}
 
+.jumbotron {
+    margin-bottom:0px;
+    padding-bottom:0px;    
+}
 
+.jumbotron h1 {
+    font-size:300%;
+    padding-top:50px;
+}
 
+.carousel-caption {
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    left:0px;
+    bottom:0px;
+    text-shadow:none;
+    color:#eee;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footnotes {
+    margin-top:50px;
+}
